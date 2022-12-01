@@ -1,0 +1,30 @@
+_id: req_7f4f5510a67f4bfe9a026a220c9f4948
+type: Request
+parentId: fld_4f4ee6cf788342dca55470f7ac8ce64f
+modified: 1668178230508
+created: 1668145629473
+url: https://api.linkedin.com/v2/people?q=vanityName&vanityName=michalfutera
+name: LinkedIn
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: oauth2
+  grantType: client_credentials
+  accessTokenUrl: GET https://www.linkedin.com/oauth/v2/authorization
+  clientId: 78s33sn8o6gz4m
+  clientSecret: V8bKAZYJYLIQChyU
+metaSortKey: -1668145629473
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

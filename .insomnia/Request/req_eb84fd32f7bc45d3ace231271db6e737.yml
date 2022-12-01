@@ -1,0 +1,23 @@
+_id: req_eb84fd32f7bc45d3ace231271db6e737
+type: Request
+parentId: fld_4f4ee6cf788342dca55470f7ac8ce64f
+modified: 1668178084309
+created: 1667829977422
+url: https://random-word-api.herokuapp.com/word
+name: Random Word
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: oauth2
+  grantType: client_credentials
+metaSortKey: -1667829977422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_f346739091e34f22b9502eb4bbb34f2a
+type: Request
+parentId: fld_a858e32e5f4e4755a4fa1127e2052166
+modified: 1667824272469
+created: 1667823855804
+url: https://cd20fed3-5462-4bb8-bcff-e87d789be7aa.mock.pstmn.io
+name: Postman Mock
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667823855804
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

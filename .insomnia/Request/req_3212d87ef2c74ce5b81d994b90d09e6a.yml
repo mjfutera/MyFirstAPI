@@ -1,0 +1,26 @@
+_id: req_3212d87ef2c74ce5b81d994b90d09e6a
+type: Request
+parentId: fld_ebb9754fa70e476599a7ce33f6409f5a
+modified: 1668190080214
+created: 1667657784856
+url: http://localhost/MyFirstAPI/
+name: JokeAPI - LocalHost
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a5798e6f6c134a06abd1c7f5086bda96
+authentication: {}
+metaSortKey: -1667714279490
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: false
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
