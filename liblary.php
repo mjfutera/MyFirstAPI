@@ -1,17 +1,13 @@
 <?php
-    function connectDB($sql, $db_data) {
-        $connection = mysqli_connect($db_data['db_host'], $db_data['db_user'], $db_data['db_pass'], $db_data['db_name']);
-        $query_result = mysqli_query($connection, $sql);
-        mysqli_close($connection);
-        return $query_result;
+    function URLarray ($url = NULL) {
+        if ($url===NULL) {$url = $_SERVER['REQUEST_URI']; }
+        return explode("/", parse_url($url, PHP_URL_PATH));
     }
 
-    function dbToArray($query_result) {
-        $array = array();
-        while($row = mysqli_fetch_array($query_result, MYSQLI_ASSOC))
-        {
-            array_push($array, $row);
-        }
-        return $array;
+    function connectSQLite($sql, $file) {
+        $pdo = new PDO('sqlite:'.$file);
+        $statement = $pdo->query($sql);
+        $rows = $statement -> fetchAll(PDO::FETCH_ASSOC);
+        return $rows;
     }
 ?>
