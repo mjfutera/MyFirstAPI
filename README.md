@@ -21,9 +21,7 @@ The project is still in the **development stage**.
 
 ## Used technologies
 * PHP 7.4
-* JavaScript
 * SQLite
-* CSS
 
 ## Check my other social media:
 * <a href="https://twitter.com/mjfutera" target="_blank">https://twitter.com/mjfutera</a>
