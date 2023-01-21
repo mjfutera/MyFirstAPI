@@ -1,3 +1,9 @@
+<!-- 
+Random Thing API - v. 1.015
+Script by © Michal Futera
+https://linktr.ee/mjfutera 
+-->
+
 <?php
     function URLarray ($url = NULL) {
         if ($url===NULL) {$url = $_SERVER['REQUEST_URI']; }
