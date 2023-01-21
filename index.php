@@ -1,10 +1,9 @@
-<!-- 
-Random Thing API - v. 1.015
-Script by © Michal Futera
-https://linktr.ee/mjfutera 
--->
-
 <?php
+
+// Random Thing API - v. 1.015
+// Script by © Michal Futera
+// https://linktr.ee/mjfutera 
+
     require_once("liblary.php");
     
     header("Content-type: application/json; charset=UTF-8");

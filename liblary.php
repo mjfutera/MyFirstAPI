@@ -1,10 +1,9 @@
-<!-- 
-Random Thing API - v. 1.015
-Script by © Michal Futera
-https://linktr.ee/mjfutera 
--->
-
 <?php
+
+// Random Thing API - v. 1.015
+// Script by © Michal Futera
+// https://linktr.ee/mjfutera 
+
     function URLarray ($url = NULL) {
         if ($url===NULL) {$url = $_SERVER['REQUEST_URI']; }
         return explode("/", parse_url($url, PHP_URL_PATH));
