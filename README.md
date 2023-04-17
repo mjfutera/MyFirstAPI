@@ -14,10 +14,8 @@ If You want to participate in app development, just text me. Reason to build thi
 ## Aplication status
 The project is still in the **development stage**.
 
-## You can see working app under:
-* <a href="https://api.michalfutera.pro/random/joke" target="_blank">https://api.michalfutera.pro/random/joke</a>
-* <a href="https://api.michalfutera.pro/random/fact" target="_blank">https://api.michalfutera.pro/random/fact</a>
-* <a href="https://api.michalfutera.pro/random/quote" target="_blank">https://api.michalfutera.pro/random/quote</a>
+## You can see working app on:
+* <a href="https://rapidapi.com/mojasuperfirma/api/random-quote-fact-joke-api" target="_blank">RapidApi.com</a>
 
 ## Used technologies
 * PHP 7.4
